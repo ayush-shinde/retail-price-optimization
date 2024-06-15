@@ -1,12 +1,12 @@
-# Retail Price Optimization - Help them to sell more
+# Retail Price Optimization - Enhancing Sales
 
-In today's competitive retail market, setting the right price for products is crucial. This project focuses on retail price optimization using machine learning techniques to predict customer satisfaction scores. This is a crucial part of developing dynamic pricing strategies, leading to increased sales and customer satisfaction.
+In the highly competitive retail market of today, determining the right price for products is critical. This project leverages machine learning techniques for retail price optimization to predict customer satisfaction scores, a key component in developing dynamic pricing strategies that boost sales and customer satisfaction.
 
-**Problem statement:** Our task is to develop a model that predicts the optimal price for a product based on various factors. This prediction would enable us to make an informed decision when pricing a product, leading to maximized sales and customer satisfaction.
+**Problem statement:** Our goal is to create a model that predicts the optimal price for a product based on various factors. This prediction enables informed pricing decisions, ultimately maximizing sales and enhancing customer satisfaction.
 
-The dataset's diverse features like product details, order details, review details, pricing, competition, time, and customer details provide a comprehensive view for our price optimization task.
+The dataset encompasses a range of features such as product details, order specifics, review information, pricing, competition, time, and customer demographics, providing a comprehensive foundation for our price optimization efforts.
 
-By analyzing this information, we aim to predict the optimal price for retail products. This would aid in making strategic pricing decisions, thereby optimizing retail prices effectively.
+By analyzing these data points, we aim to predict the optimal retail prices, aiding strategic pricing decisions and effectively optimizing retail prices.
 
 The sample dataset includes various details about each order, such as:
 
@@ -19,21 +19,21 @@ The sample dataset includes various details about each order, such as:
 
 ## 🐍 Python Requirements
 
-Let's jump into the Python packages you need. Within the Python environment of your choice, run:
+To get started with the required Python packages, run the following commands within your preferred Python environment:
 
 ```python
 git clone git@github.com:ayush-shinde/retail-price-optimization.git
 pip install -r requirements.txt
 ```
 
-Starting with ZenML 0.20.0, ZenML comes bundled with a React-based dashboard. This dashboard allows you to observe your stacks, stack components and pipeline DAGs in a dashboard interface. To access this, you need to launch the ZenML Server and Dashboard locally, but first you must install the optional dependencies for the ZenML server:
+Starting with ZenML 0.20.0, ZenML includes a React-based dashboard to monitor your stacks, stack components, and pipeline DAGs. To access this dashboard, you need to launch the ZenML Server and Dashboard locally. First, install the optional dependencies for the ZenML server:
 
 ```python
 pip install zenml["server"]
 zenml up
 ```
 
-If you are running the `run_cid_pipeline.p`y` script, you will also need to install some integrations using ZenML:
+If you are running the `run_cid_pipeline.py` script, you will also need to install some integrations using ZenML:
 
 ```
 zenml integration install mlflow -y
