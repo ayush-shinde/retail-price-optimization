@@ -63,9 +63,5 @@ Our standard training pipeline consists of several steps:
 - `split`: Splits the dataset into train and eval splits.
 - `train`: Trains the model on the training split.
 - `evaluate`: Evaluates the model on the eval split.
-- `decision`:
-<<<<<<< HEAD
-- `deploy`: Deploys the model to a BentoML endpoint.
-=======
-- `deploy`: Deploys the model to a BentoML endpoint.
->>>>>>> b4278b612d733f2af48e6917cad2592e8df3d770
+- `decision`: Decides whether to deploy the model.
+- `deploy`: Deploys the model to a BentoML endpoint
