@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
     "python.analysis.autoImportCompletions": false
+=======
+    "python.analysis.autoImportCompletions": true
+>>>>>>> b4278b612d733f2af48e6917cad2592e8df3d770
 }
